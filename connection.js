@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const DB = 'mongodb+srv://puskr:mongoPass@cluster0.vetd3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const DB = 'mongodb+srv://puskr:<mongoPassword>@cluster0.vetd3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 const connectDB = async () => {
     try {
